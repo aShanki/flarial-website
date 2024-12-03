@@ -6,7 +6,9 @@ export default function Home() {
     <div className="min-h-screen">
       <Navbar />
       <section className="h-screen relative flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#9B1D1F]/95 via-[#771515]/90 to-black/95 animate-gradient" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#9B1D1F]/95 via-[#771515]/90 to-black/95" />
+        {/* Add bottom gradient overlay */}
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#0F0607] to-transparent" />
         <Image
           src="/background.webp"
           alt="Background"
